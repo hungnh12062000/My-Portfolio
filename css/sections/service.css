@@ -1,0 +1,75 @@
+/*===========SERVICE SECTION============*/
+.service-section {
+  padding: 80px 0 80px;
+  min-height: 100vh;
+}
+
+.service-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item-inner {
+  padding: 50px 15px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.service-item-inner .icon {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.3s ease;
+  margin: 0 auto 30px;
+  color: var(--text-black-600);
+
+  position: relative;
+}
+.service-item-inner .icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.service-item-inner:hover .icon {
+  box-shadow: var(--inner-shadow-0);
+}
+.service-item-inner:hover .icon::after {
+  box-shadow: var(--outer-shadow);
+}
+
+.service-item-inner:hover .icon i {
+  color: var(--skin-color);
+}
+
+.service-item-inner .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease;
+}
+
+.service-item-inner h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-black-700);
+  margin: 0 0 10px;
+  text-transform: capitalize;
+}
+
+.service-item-inner p {
+  font-size: 16px;
+  color: var(--text-black-600);
+  margin: 0;
+  line-height: 26px;
+}

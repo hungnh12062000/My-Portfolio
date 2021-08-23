@@ -1,0 +1,57 @@
+/*===========HOME SECTION============*/
+.home-section {
+  position: relative;
+}
+
+.home-section .full-screen {
+  padding: 50px 0;
+  min-height: 100vh;
+}
+
+.home-text,
+.home-img {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.home-text p {
+  color: var(--text-black-300);
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.home-text h2 {
+  color: var(--text-black-900);
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.home-text h1 {
+  color: var(--text-black-600);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.home-text .home-btn {
+  margin-top: 30px;
+}
+
+.home-img .home-img-box {
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.home-img-box img {
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
